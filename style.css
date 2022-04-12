@@ -1,0 +1,49 @@
+
+/* un tipo de formulario*/
+
+.enlace{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    color: blueviolet;
+    border-bottom: 1px solid greenyellow;
+}
+
+
+/*otro tipo de formulario*/
+
+label{
+    display: block;
+    color: blueviolet;
+    margin: .5em 0 0 0;
+}
+
+.btn{
+    display:block;
+    margin: 1em 0;
+    
+}
+
+div{
+    margin: .4em 0;
+
+}
+div label{
+    width: 25%;
+    float: left;
+}
+
+.seven{
+    border: 2px solid grey;
+    width: 150px;
+    height: 20px;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+
+}
