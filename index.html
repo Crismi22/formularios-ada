@@ -71,9 +71,52 @@
         <input type="mail" name="mail" placeholder="mipaginaweb@ejemplo.com">
       </label>
 
-    <button type="submit">Enviar</button>
-    
+    <button type="submit">Enviar</button>  
 </form>
+<br><br>
+<form>
+    <fieldset class="completar">
+        <legend>Completar</legend>
+        <label for="color">Elige un color: <input type="color"></label>
+        <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre"></label>       
+        <label for="apellido">Apellido: <input type="text" name="apellido"></label>   
+        <label for="Telefono">Telefono: <input type="number" name="numer"></label>
+        
+        <h2>Asignaturas</h2>
+        <div class="checkbox">
+            <label for="checkbox"><input type="checkbox" name="asignatura" value="asignaturalengua">Lengua </label>
+            <label for="checkbox"><input type="checkbox" name="asignatura" value="asignaturamatematicas">Matematicas </label>
+            <label for="checkbox"><input type="checkbox" name="asignatura" value="asignaturahistoria">Historia </label>
+            <label for="checkbox"><input type="checkbox" name="asignatura" value="asignaturageografia">Geografia </label>   
+        </div>
+        <label for="file">Elije un fichero: <input type="file" name="file" id="file" accept="image/*" multiple></label>
+        <textarea name="" id="" cols="57" rows="4">Utilice este cuadro para escribir</textarea>
+        <div>
+        <label for="radiobutton"><input type="radio" name="formato" value="formatojpg">JPG</label>
+        <label for="radiobutton"><input type="radio" name="formato" value="formatopng">PNG</label>
+        </div>     
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>Completar</legend>
+        <p>Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
+        <label for="nombre">*Nombre: <input type="text" name="nombre" id="nombre"></label>       
+        <label for="apellido">*Apellido: <input type="text" name="apellido"></label>   
+        <label for="direccion">*Direccion: <input type="text"></label>
+        <label for="fecha">Elige una fecha: <input type="date" name="fecha"></label>
+        <label for="pet-select">Elige una opcion:</label>
+        <select name="conector" id="conectores">
+            <option value="">--Seleccione una opcion--</option>
+            <option value="usb">USB</option>
+            <option value="paralelo">Paralelo</option>
+            <option value="ps2">Ps2</option>
+        </select>
+        
+    
+    </fieldset>        
+</form>
+
 
 </body>
 </html>
